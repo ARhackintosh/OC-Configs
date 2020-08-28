@@ -5,7 +5,7 @@ these configs are missing platform info and have incomplete settings.
 you will need to edit the config before using it.
 of course you will need to add your kexts and ssdt/dsdt to config too.
 
-## missing info:
+## settings to change:
 - **ivy-bridge**:
     - if you have a 6 series mobo you need to edit [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#add-2)
     - this config is setup for HD4000 you need to change the id if you have a diffrent gpu
@@ -15,7 +15,7 @@ of course you will need to add your kexts and ssdt/dsdt to config too.
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#quirks-4)
 
 - **haswell**
-    - you have to specify which way you use the igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#add-2)
+    - you have to specify how do you use the igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#add-2)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#add-4)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#platforminfo)
