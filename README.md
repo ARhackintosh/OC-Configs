@@ -90,3 +90,12 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#quirks-4)
+
+- **Skylake**
+    - specify what gpu you have in APPL,ig-platform-id inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#add-2)
+        - if you have an hd510 gpu you have to add more properties.
+    - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#quirks-3)
+    - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#add-4)
+    - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#delete-3)
+    - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo)
+    - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#quirks-4)
