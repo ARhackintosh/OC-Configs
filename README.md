@@ -9,9 +9,11 @@
 </div>
 
 ## English
-This repo has a couble of configs built by ARhackintosh to make config setup easier for new users.
+These are sample configs built by ARhackintosh to make config setup easier for new users.
 
-these configs are missing platform info and have incomplete settings.
+these configs are missing platform info and only have general settings.
+any settings which depend on hardware other than cpu gen (bios settings, mobo type, etc..) are on the user to complete.
+
 you will need to edit the config before using it.
 of course you will need to add your kexts and ssdt/dsdt to config too.
 
