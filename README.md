@@ -1,4 +1,14 @@
 # OC-Configs
+<div dir="rtl">
+
+هذا المشروع هو عباره عن عينه كونفقات غير كامله, لتجعل عمليه انشاء كونفقات اوبن كور اسهل للمستخدم المبتدء.
+هذه الكونفقات تنقصها اشياء كثيره تخص الجهاز 
+بحيث نقوم بوضع الاعدادات العامه فقط وترك الاعدادات المخصصه للجهاز للمستخدم
+الاعدادات الناقصه, وما يجب تغيير ستكون موجوده في [الاصدار الثاني من شرح تثبيت الهاكنتوش](https://github.com/ARhackintosh/ARtutorial)
+
+</div>
+
+## English
 This repo has a couble of configs built by ARhackintosh to make config setup easier for new users.
 
 these configs are missing platform info and have incomplete settings.
@@ -50,3 +60,4 @@ of course you will need to add your kexts and ssdt/dsdt to config too.
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#add-4)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#quirks-4)
+
