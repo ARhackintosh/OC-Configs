@@ -124,3 +124,12 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#quirks-4)
+
+
+- **Ice Lake**
+    - if you cant set the DVMT-prealloc of your igpu you have to add additional values inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#add-2)
+    - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#quirks-3)
+    - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#add-4)
+    - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#delete-3)
+    - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#platforminfo)
+    - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#quirks-4)
