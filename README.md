@@ -19,7 +19,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 ## settings to change:
 
 ### Desktops:
-- **ivy-bridge**:
+- **Ivy Bridge**:
     - if you have a 6 series mobo you need to edit [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#add-2)
     - this config is setup for HD4000 you need to change the id if you have a different gpu
     - if you are missing some bios options you need to edit [Kernel-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#quirks-3)
@@ -27,28 +27,28 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - you have to change the SMBios and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#quirks-4)
 
-- **haswell**
+- **Haswell**
     - you have to specify how do you use the igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#add-2)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#add-4)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/haswell.html#quirks-4)
 
-- **skylake**
+- **Skylake**
     - you have to specify how do you use the igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#add-2)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#add-4)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#quirks-4)
 
-- **kaby lake**
+- **Kaby Lake**
     - you have to specify how do you use the igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#add-2)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#add-4)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#quirks-4)
 
-- **Coffee lake**
+- **Coffee Lake**
     - if you have a z390 mobo you need to enable ProtectUefiServices in [Booter-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#quirks-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#add-2)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#add-4)
@@ -64,7 +64,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 
 ### Laptops
 
-- **ivy-bridge**:
+- **Ivy Bridge**:
     - DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#add-2):
         - you need to add device id depending on your display's res
         - if you have a device with a 6th gen mobo you have to change the IMEI id
@@ -74,7 +74,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - you have to change the SMBios and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#quirks-4)
 
-- **haswell**
+- **Haswell**
     - you have to specify your igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#quirks-3)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#add-4)
@@ -100,7 +100,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo)
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#quirks-4)
 
-- **Kaby lake**
+- **Kaby Lake**
     - specify what gpu you have in APPL,ig-platform-id inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#quirks-3)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#add-4)
@@ -117,7 +117,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#quirks-4)
 
 
-- **Coffee Lake plus**
+- **Coffee Lake Plus**
     - specify what gpu you have in APPL,ig-platform-id inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#quirks-3)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#add-4)
