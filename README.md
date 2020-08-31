@@ -9,7 +9,7 @@
 </div>
 
 ## English
-These are sample configs built by ARhackintosh to make config setup easier for new users.
+These are Template configs built by ARhackintosh to make config setup easier for new users.
 
 these configs are missing platform info and only have general settings.
 any settings which depend on hardware other than cpu gen (bios settings, mobo type, etc..) are on the user to complete.
