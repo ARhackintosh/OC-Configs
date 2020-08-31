@@ -73,6 +73,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
         - you need to add device id depending on your display's res
         - if you have a device with a 6th gen mobo you have to change the IMEI id
     - if you are missing some bios options you need to edit [Kernel-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#quirks-3)
+        - if you have an hp laptop you may enable LapicKernelPanic
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#add-4)
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#delete-3)
     - you have to change the SMBios and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#platforminfo)
@@ -81,6 +82,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 - **Haswell**
     - you have to specify your igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#quirks-3)
+        - if you have an hp laptop you may enable LapicKernelPanic
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#add-4)
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo)
@@ -90,6 +92,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - if you have an hd5600 [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#add-2)
         - also if you have a kernel panic you have to add some additional properties.
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#quirks-3)
+        - if you have an hp laptop you may enable LapicKernelPanic
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#add-4)
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html#platforminfo)
@@ -99,6 +102,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - specify what gpu you have in APPL,ig-platform-id inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#add-2)
         - if you have an hd510 gpu you may add more properties.
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#quirks-3)
+        - if you have an hp laptop you may enable LapicKernelPanic
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#add-4)
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#platforminfo)
@@ -107,6 +111,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 - **Kaby Lake**
     - specify what gpu you have in APPL,ig-platform-id inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#quirks-3)
+        - if you have an hp laptop you may enable LapicKernelPanic
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#add-4)
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#platforminfo)
@@ -115,6 +120,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 - **Coffee Lake**
     - specify what gpu you have in APPL,ig-platform-id inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#quirks-3)
+        - if you have an hp laptop you may enable LapicKernelPanic
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#add-4)
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake.html#platforminfo)
@@ -124,6 +130,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 - **Coffee Lake Plus**
     - specify what gpu you have in APPL,ig-platform-id inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#quirks-3)
+        - if you have an hp laptop you may enable LapicKernelPanic
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#add-4)
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo)
@@ -133,6 +140,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 - **Ice Lake**
     - if you cant set the DVMT-prealloc of your igpu you have to add additional values inside[DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#add-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#quirks-3)
+        - if you have an hp laptop you may enable LapicKernelPanic
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#add-4)
     - if your device has no Native support for nvram you should edit [NVRAM-Delete](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#delete-3)
     - you have to change the SMBios, and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html#platforminfo)
