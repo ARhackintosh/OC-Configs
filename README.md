@@ -66,8 +66,10 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 
 ### Laptops
 
+**notice: we don't offer support for dgpus on laptops, these configs have the -wegnoegpu bootarg added.**
+
 - **Ivy Bridge**:
-    - DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#add-2):
+    - [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#add-2):
         - you need to add device id depending on your display's res
         - if you have a device with a 6th gen mobo you have to change the IMEI id
     - if you are missing some bios options you need to edit [Kernel-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/ivy-bridge.html#quirks-3)
