@@ -49,6 +49,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#quirks-4)
 
 - **Coffee Lake**
+    - you have to specify how do you use the igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#add-2)
     - if you have a z390 mobo you need to enable ProtectUefiServices in [Booter-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#quirks-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#add-2)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#add-4)
@@ -56,6 +57,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
     - if you use an hp motherboard, you also have to enable unblockfsconnect in [UEFI-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#quirks-4)
 
 - **Comet Lake**
+    - you have to specify how do you use the igpu in [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#add-2)
     - if you have a z390 mobo you need to enable ProtectUefiServices in [Booter-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#quirks-2)
     - if you have missing bios options you have to edit [kernel-quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#add-2)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#add-4)
