@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>#WARNING - 1</key>
-	<string>THIS CONFIG IS INCOMPLETE</string>
+	<string>This is just a Template By ARhackintosh. Do NOT try loading it.</string>
 	<key>#WARNING - 2</key>
-	<string>you need to add the missing info to use it</string>
+	<string>You will have to fill empty settings depending on your hardware configuration</string>
 	<key>#WARNING - 3</key>
-	<string>the info is available in the github repo</string>
+	<string>list of missing settings is available in the github repo.</string>
 	<key>#WARNING - 4</key>
-	<string>made by ARhackintosh</string>
+	<string>Do not forget to add your kexts and ACPIs files</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
