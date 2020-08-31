@@ -21,7 +21,7 @@ you will need to add your kexts and ssdt/dsdt to the config too.
 ### Desktops:
 - **ivy-bridge**:
     - if you have a 6 series mobo you need to edit [DeviceProperties-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#add-2)
-    - this config is setup for HD4000 you need to change the id if you have a diffrent gpu
+    - this config is setup for HD4000 you need to change the id if you have a different gpu
     - if you are missing some bios options you need to edit [Kernel-Quirks](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#quirks-3)
     - to change bootargs edit [NVRAM-Add](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#add-4)
     - you have to change the SMBios and add all the missing info(mlb,rom,product,serial) in [Platforminfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/ivy-bridge.html#platforminfo)
