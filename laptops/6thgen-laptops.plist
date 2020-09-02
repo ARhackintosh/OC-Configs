@@ -105,7 +105,7 @@
 				<key>Comment</key>
 				<string>Change _OSI to XOSI</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
