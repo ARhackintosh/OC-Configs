@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>#WARNING - 1</key>
-	<string>This is just a sample. Do NOT try loading it.</string>
+	<string>This is just a Template By ARhackintosh. Do NOT try loading it.</string>
 	<key>#WARNING - 2</key>
-	<string>Ensure you understand EVERY field before booting.</string>
+	<string>You will have to fill empty settings depending on your hardware configuration</string>
 	<key>#WARNING - 3</key>
-	<string>In most cases recommended to use Sample.plist</string>
+	<string>list of missing settings is available in the github repo.</string>
 	<key>#WARNING - 4</key>
-	<string>Use SampleCustom.plist only for special cases.</string>
+	<string>Do not forget to add your kexts and ACPIs files and smbios info</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
