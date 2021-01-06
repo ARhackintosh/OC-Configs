@@ -1,6 +1,7 @@
 # Base.plist settings
 - add warnings
 - remove acpi entries
+- set ResetLogoStatus to false
 ## DeviceProperties --> ADD
 - remove PciRoot(0x0)/Pci(0x1b,0x0)
 - add PciRoot(0x0)/Pci(0x2,0x0)
