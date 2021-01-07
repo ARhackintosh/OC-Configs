@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>#WARNING - 1</key>
-	<string>This is just a Template By ARhackintosh. Do NOT try loading it.</string>
+	<string>This is just a Template By ARhackintosh. Do NOT try loading it. Made for 0.6.5</string>
 	<key>#WARNING - 2</key>
 	<string>You will have to fill empty settings depending on your hardware configuration</string>
 	<key>#WARNING - 3</key>
@@ -24,15 +24,11 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>
-				Q3B1UG0AAAA=
-				</data>
+				<data>Q3B1UG0AAAA=</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				U1NEVA==
-				</data>
+				<data>U1NEVA==</data>
 			</dict>
 			<dict>
 				<key>All</key>
@@ -42,86 +38,32 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>
-				Q3B1MElzdAA=
-				</data>
+				<data>Q3B1MElzdAA=</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>
-				U1NEVA==
-				</data>
+				<data>U1NEVA==</data>
 			</dict>
 		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>_Q11 to XQ11</string>
+				<string>Change _OSI to XOSI</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
-				<data>
-				X1ExMQ==
-				</data>
+				<data>X09TSQ==</data>
 				<key>Limit</key>
 				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				</data>
 				<key>Replace</key>
-				<data>
-				WFExMQ==
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data>WE9TSQ==</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>_Q12 to XQ12</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				X1ExMg==
-				</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				</data>
-				<key>Replace</key>
-				<data>
-				WFExMg==
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -171,23 +113,17 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				bWFjT1M=
-				</data>
+				<data>bWFjT1M=</data>
 				<key>Identifier</key>
 				<string>Apple</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Replace</key>
-				<data>
-				aGFjT1M=
-				</data>
+				<data>aGFjT1M=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -239,8 +175,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				</data>
+				<data></data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -270,11 +205,9 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data>
-			</data>
+			<data></data>
 			<key>Cpuid1Mask</key>
-			<data>
-			</data>
+			<data></data>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -319,26 +252,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>
-				ww==
-				</data>
+				<data>ww==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -354,26 +282,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleACPIPlatform</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>18.5.0</string>
 				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
-				<data>
-				ww==
-				</data>
+				<data>ww==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -389,28 +312,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				6AAA//9miYMABQAA
-				</data>
+				<data>6AAA//9miYMABQAA</data>
 				<key>Identifier</key>
 				<string>com.apple.iokit.AppleBCM5701Ethernet</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				/wAA////////////
-				</data>
+				<data>/wAA////////////</data>
 				<key>MaxKernel</key>
 				<string>19.9.9</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				uLQWAABmiYMABQAA
-				</data>
+				<data>uLQWAABmiYMABQAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -426,27 +342,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				MfaKD4TJdQT/xrEKZrr9A+yoIHT7Zrr4A4jI7kj/x4X2
-				dN/r/g==
-				</data>
+				<data>MfaKD4TJdQT/xrEKZrr9A+yoIHT7Zrr4A4jI7kj/x4X2dN/r/g==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -462,27 +372,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				MfaKD4TJdQT/xrEKZrr9A+yoIHT7Zrr4A4jI7kj/x4X2
-				dN/D
-				</data>
+				<data>MfaKD4TJdQT/xrEKZrr9A+yoIHT7Zrr4A4jI7kj/x4X2dN/D</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -498,27 +402,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>Replace</key>
-				<data>
-				sUtmuv0D7KggdPtmuvgDiMjusQpmuv0D7KggdPtmuvgD
-				iMju6/4=
-				</data>
+				<data>sUtmuv0D7KggdPtmuvgDiMjusQpmuv0D7KggdPtmuvgDiMju6/4=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -590,6 +488,8 @@
 			<false/>
 			<key>PickerMode</key>
 			<string>Builtin</string>
+			<key>PickerVariant</key>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -606,7 +506,7 @@
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -660,11 +560,9 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
-			<data>
-			</data>
+			<data></data>
 			<key>PasswordSalt</key>
-			<data>
-			</data>
+			<data></data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -682,35 +580,25 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
-				<data>
-				</data>
+				<data></data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>
-				Rg==
-				</data>
+				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 -wegnoegpu</string>
+				<string>-v keepsyms=1 debug=0x100</string>
 				<key>csr-active-config</key>
-				<data>
-				AAAAAA==
-				</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>
-				</data>
+				<data></data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -781,9 +669,7 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>
-			ESIzRFVm
-			</data>
+			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -835,16 +721,15 @@
 			<integer>20</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
+			<key>SetupDelay</key>
+			<integer>0</integer>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
 		<key>Drivers</key>
-		<array>
-			<string>HfsPlus.efi</string>
-			<string>OpenRuntime.efi</string>
-		</array>
+		<array/>
 		<key>Input</key>
 		<dict>
 			<key>KeyFiltering</key>
@@ -924,7 +809,7 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<false/>
+			<true/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
@@ -934,8 +819,6 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>DeduplicateBootOrder</key>
-			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
