@@ -29,3 +29,6 @@
 ## NVRAM
 ### 7C436110-AB2A-4BBB-A880-FE41995C9F82
 - add debug=0x100
+
+## laptop edition changes
+- add Change _OSI to XOSI to ACPI --> Patch
