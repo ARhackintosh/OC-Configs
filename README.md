@@ -1,4 +1,26 @@
 # OC-Configs
+
+<div dir="rtl">
+
+## توقف الدعم
+اصدار V2.8-Big Sur من شرح الهاكنتوش, سيعتمد على بناء الكونفقات مباشره من السامبل.
+
+جاء هذا القرار لتسريع عمليه تحديث الشرح و تخفيف الحمل على الفريق.
+ولستريع وتيره صدور التحديثات.
+اخر اصدار يستخدم OC-Configs هو [V2.7.1-Big Sur](https://github.com/ARhackintosh/ARtutorial/releases/tag/V2.7.1)+
+اخر اصدار من OC-Configs سيكون V1.6.1-April.
+في حاله كنت تريد تكمله المشروع, يمكنك اشتقاق المشروع, مع ابقاء ترخيص AGPLv3
+
+</div>
+
+## deprecation notice
+
+our arabic hackintosh guide [ARtutorial](https://github.com/ARhackintosh/ARtutorial) in version V2.8-Big Sur, will follow dortania's way in creating configs from the offical opencore sample.
+this decision came from the need to make the update process simpler and easier for the maintainer(s) of the project, and to improve the speed at which updates are released.
+the last version to use OC-Configs is [V2.7.1-Big Sur](https://github.com/ARhackintosh/ARtutorial/releases/tag/V2.7.1)
+OC-Configs V1.6.1 is the last update to be released.  its built for 0.6.8 with XHCIportlimit disabled for 11.3 compatiblity
+if you want to continue the project, you are welcome to fork the repo under the AGPLv3 license
+
 <div dir="rtl">
 
 هذا المشروع هو عباره عن عينه كونفقات غير كامله, لتجعل عمليه انشاء كونفقات اوبن كور اسهل للمستخدم المبتدء.
